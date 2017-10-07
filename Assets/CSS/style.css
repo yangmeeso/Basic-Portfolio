@@ -1,0 +1,255 @@
+/* Common Style */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	background-color: #cccccc;
+	color: #777777;
+	width: 960px;
+}
+
+#header__header {
+	border-bottom: 2px solid #a5a5a5;
+	background-color: #ffffff;
+	width: 100%; 
+	height: 100px;
+	padding: 10px 0px 0px 0px;
+}
+
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 250px;
+	padding: 30px;
+	margin: 0px 0px 0px 30px;
+	font-size: 30px;
+	text-align: center;
+	float: left;
+}
+
+nav {
+	color: #777777;
+	float: absolute;
+	padding: 50px 0px 0px 0px;
+	margin: 0px 0px 0px 650px;
+}
+
+.content__about {
+	background-color: #ffffff;
+	float: left;
+	width: 550px;
+	margin: 30px 30px 200px 30px;
+	align-content: center
+	border: 1px solid #dddddd;
+	overflow: auto;
+}
+
+h2, h3 {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #4aaaa5;
+}
+
+#header__about, #header__portfolio, #header__contact {
+	color: #777777;
+	text-decoration: none;
+}
+
+#header__about, #header__portfolio {
+	padding-right: 40px;
+}
+
+#about__me {
+	width: 500px;
+	border-bottom: 2px solid #a5a5a5;
+	align-content: center;
+	margin: 30px 0px 0px 30px;
+}
+
+h2 {
+	font-size: 30px;
+	color: #4aaaa5;
+	padding: 10px;
+}
+
+#profile {
+	padding: 30px 10px 10px 30px;
+}
+
+#profile__picture {
+	float: left;
+	margin: 0px 10px 30px 10px;
+}
+
+.content__contact {
+	background-color: #ffffff;
+	float: left;
+	width: 550px;
+	margin: 30px 30px 200px 30px;
+	align-content: center
+	border: 1px solid #dddddd;
+	overflow: auto;
+}
+
+#contact__form {
+	border-bottom: 2px solid #a5a5a5;
+	width: 500px;
+	margin: 30px 0px 0px 30px;
+}
+
+.contact__wrapper {
+	float: left;
+	margin: 30px 30px 70px 30px;
+	align-content: center
+	padding: 30px 0px 0px 30px;
+}
+
+#contact__form__name, #contact__form__email {
+	width: 150px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+#contact__form__msgbox {
+	width: 450px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	color: #ffffff;
+	margin: 5px 0px 5px 0px;
+	position: relative;
+}
+
+#contact {
+	border-bottom: 2px solid #a5a5a5;
+	align-content: center;
+	margin: 0px 0px 10px 0px;
+}
+
+h3 {
+	padding: 10px;
+	font-size: 20px
+}
+
+#github {
+	padding: 0px 5px 0px 5px;
+}
+
+.content__portfolio {
+	background-color: #ffffff;
+	float: left;
+	height: 500px;
+	width: 550px;
+	margin: 30px 30px 200px 40px;
+	align-content: center
+	border: 1px solid #dddddd;
+	overflow: auto;
+}
+
+#portfolio__list {
+	border-bottom: 2px solid #a5a5a5;
+	width: 500px;
+	margin: 30px 0px 0px 30px;
+}
+
+.portfolio {
+	margin: 15px 30px 70px 40px;
+	align-content: center
+	padding: 30px 0px 0px 30px;
+}
+
+
+.portfolio__fd {
+	position: relative;
+	text-align: center;
+	float: left;
+	margin: 15px;
+}
+
+#fd {
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: -50px;
+	width: 200px;
+	padding: 10px;
+}
+
+.portfolio__bd {
+	position: relative;
+	text-align: center;
+	float: left;
+	margin: 15px;
+}
+
+#bd {
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: -50px;
+	width: 200px;
+	padding: 10px;
+}
+
+.portfolio__js {
+	position: relative;
+	text-align: center;
+	float: left;
+	margin: 15px;
+}
+
+#js {
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: -50px;
+	padding: 10px;
+	width: 200px;
+}
+
+.portfolio__nd {
+	position: relative;
+	text-align: center;
+	float: left;
+	margin: 15px;
+}
+
+#nd {
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: -50px;
+	padding: 10px;
+	width: 200px;
+}
+
+aside {
+	width: 270px;
+	background-color: #ffffff;
+	float: relative;
+	padding: 30px;
+	margin: 30px 0px 0px 630px;
+}
+
+footer {
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	clear: both;
+	text-align: center;
+	color: #a8a8a8;
+	padding: 30px
+}
